@@ -225,13 +225,13 @@ p {
   .title-h1{
     font-size: 3.5rem;
   }
-
+/* 
   .form-control{
     height: 3.2rem;
   }
   .form-group{
     padding-top: 2%;
-  }
+  } */
 }
 
 /*********************** media querry ends ********************/
