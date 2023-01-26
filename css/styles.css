@@ -1,0 +1,237 @@
+html,body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: rgb(73, 71, 71);
+}
+
+/********************* title section *****************/
+/* container fluid */
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* nav bar */
+.navbar {
+  padding: 0 0 4.5;
+}
+
+.navbar-brand {
+  font-family: "Freckle Face";
+  font-size: 2.5rem;
+  color: #000000;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  text-align: left;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
+}
+
+.title-h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: left;
+}
+
+.down-sec {
+  text-align: left;
+}
+.download-button {
+  margin: 5% 3% 5% 5%;
+}
+
+.iqform {
+  align-self: right;
+  padding: 0% 0% 0% 30%;
+}
+.title-image {
+  width: 18rem;
+  transform: rotate(25deg);
+  right: 170px;
+  position: absolute;
+  z-index: 1;
+}
+/********************* title section ends **************/
+
+/********************* features section *****************/
+#features {
+  padding: 7% 15% 7%;
+  background-color: #e1ffee;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* feature icon  */
+.icon {
+  color: #505251;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #000000;
+}
+/********************* features section ends *************/
+
+/********************** pricing section *******************/
+#pricing {
+  padding: 100px 15%;
+  background-color: #a5f1e9;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-family: "serif";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/********************** pricing section ends ****************/
+
+/********************** testimonial section *************/
+#testimonials {
+  color: black;
+  background-color: #e1ffee;
+  /* background-color: #7FBCD2; */
+}
+
+.testimonial-text {
+  font-family: "Fredericka the Great";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.pn-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+/********************** testimonial section ends ************/
+
+/********************** press section ***********************/
+#press {
+  background-color: #e1ffee;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/********************** press section ends *******************/
+
+/********************** cta section *************************/
+#cta {
+  background-color: #7fbcd2;
+  color: #fff;
+  font-weight: bold;
+}
+.cta-heading {
+  font-family: montserrat-black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.G2-gal1-img {
+  padding: 2%;
+}
+.G2-gal2-img {
+  padding: 2%;
+  margin-left: 3%;
+}
+
+.img-gal-h3 {
+  color: #000000;
+}
+/********************** cta section ends *********************/
+
+/********************** footer section ***********************/
+#footer {
+  padding: 2% 5%;
+}
+.social-icon {
+  margin: 20px 10px;
+  padding-bottom: 3%;
+}
+/* .ft-logo{
+    height: 100px;
+    width: 500px;
+} */
+
+.ft-data {
+  text-align: center;
+}
+/********************** footer section ends *******************/
+
+/*********************** media querry ************************/
+@media (max-width: 1024px) {
+  .title-h1 {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .iqform {
+    align-self: center;
+    padding: 0% 18% 0% 18%;
+  }
+
+  .title-h1{
+    font-size: 3.5rem;
+  }
+
+  .form-control{
+    height: 3.2rem;
+  }
+  .form-group{
+    padding-top: 2%;
+  }
+}
+
+/*********************** media querry ends ********************/
